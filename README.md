@@ -46,52 +46,57 @@ Food-Maestro-A-Symphony-of-101-Dishes/ │ ├── data/
    ```bash
    git clone https://github.com/ManojM786/Food-Maestro-A-Symphony-of-101-Dishes.git
    cd Food-Maestro-A-Symphony-of-101-Dishes
-Create and Activate a Virtual Environment
+2. **Create and Activate a Virtual Environment**
 
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies
-
-pip install -r requirements.txt
-Dataset Setup
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+4. **Dataset Setup**
 
 Download the Food-101 dataset and follow any instructions provided in the data/ folder (if applicable). Ensure that the dataset path is correctly configured in the training and evaluation scripts.
 
-Usage
-Training the Model
+**Usage**
+**Training the Model**
 To train the model, run the training script. You can adjust hyperparameters such as epochs, batch size, and learning rate as needed.
 
-python scripts/train.py --epochs 25 --batch_size 32 --learning_rate 0.001
-Evaluating the Model
+   ```bash
+   python scripts/train.py --epochs 25 --batch_size 32 --learning_rate 0.001
+```
+**Evaluating the Model**
 After training, evaluate the model using the evaluation script to generate performance metrics and visualizations.
 
-
-python scripts/evaluate.py
+   ```bash
+   python scripts/evaluate.py
+```
 The evaluation results (such as accuracy, loss curves, and confusion matrices) will be saved in the results/ directory.
 
-Results
+**Results**
 The model has achieved competitive accuracy on the Food-101 test set. Detailed performance metrics, plots, and confusion matrices can be found in the results/ directory. (Update this section with actual performance numbers and insights after running the evaluation.)
 
-Dependencies
+**Dependencies**
 Major libraries used in this project include:
 
 PyTorch
 Torchvision
 Scikit-Learn
 Other dependencies are listed in requirements.txt
-Contributing
+
+**Contributing**
 Contributions to improve this project are welcome. To contribute:
 
-Fork the repository.
-Create a feature branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+1.Fork the repository.
+2.Create a feature branch (git checkout -b feature-branch).
+3.Commit your changes (git commit -m 'Add new feature').
+4.Push to the branch (git push origin feature-branch).
+5.Open a pull request.
+
 For major changes, please open an issue first to discuss what you would like to change.
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+**Contact**
 For any questions or feedback, please contact manojdatascientist7@gmail.com.
