@@ -30,10 +30,6 @@ Food-Maestro-A-Symphony-of-101-Dishes/ │ ├── data/
 │ ├── train.py # Script to train the food image classifier │ └── evaluate.py # Script to evaluate the trained model and generate metrics │ ├── results/
 │ └── [Output files such as accuracy plots, confusion matrices, etc.] │ ├── requirements.txt # Python dependencies ├── LICENSE # License file (if provided) └── README.md # This file
 
-markdown
-Copy
-Edit
-
 *Note:* If any folders or files have different names or if additional scripts are present, update this section accordingly.
 
 ## Installation
@@ -52,16 +48,11 @@ Edit
    cd Food-Maestro-A-Symphony-of-101-Dishes
 Create and Activate a Virtual Environment
 
-bash
-Copy
-Edit
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Dataset Setup
 
@@ -71,16 +62,11 @@ Usage
 Training the Model
 To train the model, run the training script. You can adjust hyperparameters such as epochs, batch size, and learning rate as needed.
 
-bash
-Copy
-Edit
 python scripts/train.py --epochs 25 --batch_size 32 --learning_rate 0.001
 Evaluating the Model
 After training, evaluate the model using the evaluation script to generate performance metrics and visualizations.
 
-bash
-Copy
-Edit
+
 python scripts/evaluate.py
 The evaluation results (such as accuracy, loss curves, and confusion matrices) will be saved in the results/ directory.
 
