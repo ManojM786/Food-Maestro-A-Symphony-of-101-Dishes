@@ -48,10 +48,10 @@ Food-Maestro-A-Symphony-of-101-Dishes/ │ ├── data/
    cd Food-Maestro-A-Symphony-of-101-Dishes
 Create and Activate a Virtual Environment
 
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Dependencies
-
 
 pip install -r requirements.txt
 Dataset Setup
