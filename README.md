@@ -63,18 +63,13 @@ Download the Food-101 dataset and follow any instructions provided in the data/ 
 To train the model, run the training script. You can adjust hyperparameters such as epochs, batch size, and learning rate as needed.
 
    ```bash
-   python scripts/train.py --epochs 25 --batch_size 32 --learning_rate 0.001
+   python going_modular/train.py --epochs 25 --batch_size 32 --learning_rate 0.001
 ```
-**Evaluating the Model**
-After training, evaluate the model using the evaluation script to generate performance metrics and visualizations.
 
-   ```bash
-   python scripts/evaluate.py
-```
-The evaluation results (such as accuracy, loss curves, and confusion matrices) will be saved in the results/ directory.
 
 **Results**
 The model has achieved competitive accuracy on the Food-101 test set. Detailed performance metrics, plots, and confusion matrices can be found in the results/ directory. (Update this section with actual performance numbers and insights after running the evaluation.)
+
 
 **Dependencies**
 Major libraries used in this project include:
@@ -83,6 +78,7 @@ PyTorch
 Torchvision
 Scikit-Learn
 Other dependencies are listed in requirements.txt
+
 
 **Contributing**
 Contributions to improve this project are welcome. To contribute:
@@ -93,7 +89,9 @@ Contributions to improve this project are welcome. To contribute:
 4.Push to the branch (git push origin feature-branch).
 5.Open a pull request.
 
+
 For major changes, please open an issue first to discuss what you would like to change.
+
 
 **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
